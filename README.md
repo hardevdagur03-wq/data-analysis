@@ -353,5 +353,5 @@ Data Analyst | Python (Data Analysis) | Machine Learning Enthusiast
 
 ## Contact
 
-* LinkedIn: [https://www.linkedin.com/in/your-linkedin-profile]([https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/haradev-dagur-924760394/))
-* Email: [hardevdagur03@gmail.com](mailto:hardevdagur03@gmail.com)
+- LinkedIn: https://www.linkedin.com/in/haradev-dagur-924760394/
+- Email: hardevdagur03@gmail.com
