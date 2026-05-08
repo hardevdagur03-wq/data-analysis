@@ -1,135 +1,126 @@
 # Enterprise DataLens Pro
 
-Enterprise DataLens Pro is a production-ready Data Analysis and Machine Learning platform built using Streamlit and Python. The application provides an end-to-end analytics workflow, enabling users to upload datasets, clean and preprocess data, perform exploratory data analysis, create interactive visualizations, build machine learning models, and generate reports — all within a unified web interface.
+Enterprise DataLens Pro is a production-ready Data Analysis and Machine Learning platform built using Python and Streamlit. The application provides a complete end-to-end analytics workflow including data upload, preprocessing, exploratory data analysis, interactive visualizations, machine learning model building, and report generation — all within a modern enterprise-style dashboard.
 
 ---
 
-# Project Overview
+# Live Demo
 
-Enterprise DataLens Pro is designed to simplify the complete data science lifecycle through an interactive and enterprise-style dashboard.
+## Streamlit Deployment
 
-The platform combines:
-
-* Data ingestion
-* Data preprocessing
-* Exploratory Data Analysis (EDA)
-* Interactive visualization
-* Machine learning workflows
-* Automated reporting
-
-The application is implemented as a single-file Streamlit application:
-
-```bash
-app1.py
-```
+https://your-app.streamlit.app
 
 ---
 
 # Features
 
-## 1. Upload Data
+## 1. Data Upload
 
 Supports uploading:
 
-* CSV files
-* Excel files (.xlsx, .xls)
+- CSV files
+- Excel files (.xlsx, .xls)
 
-### Data Health Metrics
+### Data Quality Metrics
 
-After upload, the platform automatically displays:
+Automatically displays:
 
-* Number of rows
-* Number of columns
-* Missing values count
-* Duplicate records count
+- Number of rows
+- Number of columns
+- Missing values count
+- Duplicate records count
 
 ---
 
-## 2. Data Cleaning
+## 2. Data Cleaning & Preprocessing
 
-The platform provides comprehensive preprocessing utilities:
+Comprehensive preprocessing utilities:
 
 ### Missing Value Handling
 
-Users can fill missing values using:
+Users can handle missing data using:
 
-* Mean
-* Median
-* Mode
-* Custom values
+- Mean
+- Median
+- Mode
+- Custom values
 
-### Additional Cleaning Features
+### Additional Features
 
-* Duplicate removal
-* Data type conversion
-* Feature engineering support
-* Column transformation utilities
+- Duplicate removal
+- Data type conversion
+- Feature engineering
+- Column transformations
+- Data filtering
 
 ---
 
-## 3. Data Analysis
+## 3. Exploratory Data Analysis (EDA)
 
-Automated exploratory data analysis features include:
+Automated analysis tools including:
 
-* Descriptive statistics
-* Data distribution analysis
-* Histograms
-* Boxplots
-* Correlation insights
+- Descriptive statistics
+- Correlation analysis
+- Distribution analysis
+- Histograms
+- Boxplots
+- Outlier detection
 
 ---
 
 ## 4. Interactive Visualizations
 
-Create interactive charts and dashboards using Plotly.
+Interactive dashboards powered by Plotly.
 
 ### Supported Charts
 
-* Scatter plots
-* Line charts
-* Bar charts
-* Pie charts
-* Heatmaps
+- Scatter plots
+- Line charts
+- Bar charts
+- Pie charts
+- Heatmaps
+- Correlation matrices
 
 ---
 
 ## 5. Machine Learning Models
 
-The platform supports both regression and classification workflows.
+Supports regression and classification workflows.
 
 ### Regression Models
 
-* Linear Regression
-* Random Forest Regressor
-* Gradient Boosting Regressor
+- Linear Regression
+- Random Forest Regressor
+- Gradient Boosting Regressor
 
-### Regression Evaluation Metrics
+### Regression Metrics
 
-* R² Score
-* MAE (Mean Absolute Error)
-* RMSE (Root Mean Squared Error)
+- R² Score
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
 
 ### Classification Models
 
-* Random Forest Classifier
+- Random Forest Classifier
 
-### Classification Evaluation
+### Classification Metrics
 
-* Accuracy score
-* Confusion matrix
-* Classification report
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
 
 ---
 
-## 6. Reports
+## 6. Reporting & Export
 
-Generate analytical summaries and downloadable datasets.
+Generate downloadable reports and processed datasets.
 
 ### Reporting Features
 
-* Data Quality Score
-* Processed dataset download
-* Data summary insights
+- Data Quality Score
+- Dataset summary
+- Download cleaned datasets
+- Automated analytical insights
 
 ---
 
@@ -141,27 +132,27 @@ Generate analytical summaries and downloadable datasets.
 
 ---
 
-## Data Cleaning Page
+## Data Cleaning Dashboard
 
-![Cleaning Page](assets/screenshots/cleaning.png)
+![Cleaning Dashboard](assets/screenshots/cleaning.png)
 
 ---
 
 ## Visualization Dashboard
 
-![Visualization](assets/screenshots/visualization.png)
+![Visualization Dashboard](assets/screenshots/visualization.png)
 
 ---
 
 ## Machine Learning Models
 
-![ML Models](assets/screenshots/ml.png)
+![Machine Learning](assets/screenshots/ml.png)
 
 ---
 
 ## Reports Dashboard
 
-![Reports](assets/screenshots/reports.png)
+![Reports Dashboard](assets/screenshots/reports.png)
 
 ---
 
@@ -175,17 +166,17 @@ The application uses:
 st.session_state
 ```
 
-This enables persistent dataset handling and activity tracking across multiple pages.
+for persistent dataset handling and activity tracking across multiple modules.
 
 ---
 
 ## Logging System
 
-A dedicated logging system tracks:
+Tracks:
 
-* User activity
-* Errors and exceptions
-* Application events
+- User activity
+- Errors and exceptions
+- Application events
 
 ### Log File
 
@@ -197,25 +188,13 @@ datalens.log
 
 ## Performance Optimization
 
-Efficient dataset loading is implemented using:
+Efficient caching implemented using:
 
 ```python
 st.cache_data
 ```
 
-This improves performance and reduces redundant processing.
-
----
-
-## UI/UX Design
-
-The application includes:
-
-* Custom CSS styling
-* Enterprise dashboard layout
-* Dark mode aesthetic
-* Interactive navigation sidebar
-* Responsive design principles
+This improves performance and reduces redundant computations.
 
 ---
 
@@ -223,18 +202,18 @@ The application includes:
 
 ## Frontend & UI
 
-* Streamlit
-* Plotly
+- Streamlit
+- Plotly
 
 ## Data Processing
 
-* Pandas
-* NumPy
+- Pandas
+- NumPy
 
 ## Machine Learning & Statistics
 
-* Scikit-learn
-* SciPy
+- Scikit-learn
+- SciPy
 
 ---
 
@@ -247,14 +226,21 @@ Enterprise-DataLens-Pro/
 ├── requirements.txt
 ├── README.md
 ├── datalens.log
-└── assets/
+│
+├── assets/
+│   └── screenshots/
+│       ├── upload.png
+│       ├── cleaning.png
+│       ├── visualization.png
+│       ├── ml.png
+│       └── reports.png
 ```
 
 ---
 
 # Installation
 
-## Clone the Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/your-username/enterprise-datalens-pro.git
@@ -271,48 +257,27 @@ pip install -r requirements.txt
 
 ---
 
-# Run the Application
+# Run Application
 
-Execute the following command:
+Execute:
 
 ```bash
 streamlit run app1.py
 ```
 
-The application will open in your browser automatically.
+The application will automatically open in your browser.
 
 ---
 
 # Example Workflow
 
-1. Upload a CSV or Excel dataset
-2. Clean missing or duplicate data
-3. Analyze distributions and statistics
+1. Upload CSV or Excel dataset
+2. Clean and preprocess data
+3. Perform exploratory data analysis
 4. Create visualizations
-5. Train ML models
+5. Train machine learning models
 6. Evaluate model performance
-7. Generate reports and download processed data
-
----
-
-# Screenshots
-
-## Upload Dataset Page
-
-* CSV and Excel upload support
-* Data quality overview
-* Enterprise dashboard UI
-
-## Data Cleaning Page
-
-* Missing value handling
-* Duplicate removal
-* Feature engineering
-
-## Visualization Dashboard
-
-* Interactive Plotly charts
-* Business intelligence insights
+7. Generate reports and download processed datasets
 
 ---
 
@@ -320,54 +285,54 @@ The application will open in your browser automatically.
 
 ## Enterprise DataLens Pro — Data Analytics & Machine Learning Platform
 
-Developed a production-ready analytics platform using Python and Streamlit to support end-to-end data science workflows including data ingestion, preprocessing, exploratory analysis, visualization, machine learning, and reporting. Integrated interactive dashboards, automated evaluation metrics, session management, logging systems, and enterprise-style UI components to streamline analytical operations.
+Developed a production-ready analytics platform using Python and Streamlit to support complete data science workflows including data ingestion, preprocessing, exploratory analysis, interactive visualization, machine learning, and reporting. Integrated enterprise dashboard design, automated evaluation metrics, session management, caching systems, and logging mechanisms to streamline analytical operations.
 
 ---
 
 # Key Skills Demonstrated
 
-* Data Analysis
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Data Visualization
-* Machine Learning
-* Dashboard Development
-* Python Programming
-* Streamlit Development
-* Statistical Analysis
-* Feature Engineering
-* Model Evaluation
-* Enterprise UI Design
+- Data Analysis
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Machine Learning
+- Dashboard Development
+- Python Programming
+- Streamlit Development
+- Statistical Analysis
+- Feature Engineering
+- Model Evaluation
+- Enterprise UI Design
 
 ---
 
 # Future Enhancements
 
-Potential improvements for future versions:
+Potential future improvements:
 
-* User authentication system
-* SQL database integration
-* Advanced ML pipelines
-* Real-time analytics
-* PDF report generation
-* Cloud deployment
-* Multi-user collaboration
-* API integration
-* Automated feature selection
-* Deep learning support
+- User authentication
+- SQL database integration
+- Advanced ML pipelines
+- Real-time analytics
+- PDF report generation
+- Multi-user collaboration
+- API integrations
+- Automated feature selection
+- Deep learning support
+- Cloud scalability improvements
 
 ---
 
 # Deployment
 
-The application can be deployed using:
+The application can be deployed on:
 
-* Streamlit Community Cloud
-* Render
-* Railway
-* AWS
-* Azure
-* Google Cloud Platform
+- Streamlit Community Cloud
+- Render
+- Railway
+- AWS
+- Azure
+- Google Cloud Platform
 
 ---
 
@@ -379,11 +344,11 @@ This project is licensed under the MIT License.
 
 # Author
 
-Developed by Haradev Dagur
+## Haradev Dagur
 
-Data Analyst | Python (Data Analysis) | Machine Learning Enthusiast
+Data Analyst | Python Developer | Machine Learning Enthusiast
 
-## Contact
+### Contact
 
 - LinkedIn: https://www.linkedin.com/in/haradev-dagur-924760394/
 - Email: hardevdagur03@gmail.com
