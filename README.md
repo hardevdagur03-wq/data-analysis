@@ -137,31 +137,31 @@ Generate analytical summaries and downloadable datasets.
 
 ## Upload Dataset Page
 
-![Upload Page](screenshots/upload.png)
+![Upload Page](assets/screenshots/upload.png)
 
 ---
 
 ## Data Cleaning Page
 
-![Cleaning Page](screenshots/cleaning.png)
+![Cleaning Page](assets/screenshots/cleaning.png)
 
 ---
 
 ## Visualization Dashboard
 
-![Visualization](screenshots/visualization.png)
+![Visualization](assets/screenshots/visualization.png)
 
 ---
 
 ## Machine Learning Models
 
-![ML Models](screenshots/ml.png)
+![ML Models](assets/screenshots/ml.png)
 
 ---
 
 ## Reports Dashboard
 
-![Reports](screenshots/reports.png)
+![Reports](assets/screenshots/reports.png)
 
 ---
 
