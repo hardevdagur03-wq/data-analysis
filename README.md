@@ -8,7 +8,7 @@ Enterprise DataLens Pro is a production-ready Data Analysis and Machine Learning
 
 ## Streamlit Deployment
 
-[https://your-app.streamlit.app](https://data-analysis-ewnnx3aoeenph4qqf2vymf.streamlit.app/)]
+[https://your-app.streamlit.app](https://data-analysis-ewnnx3aoeenph4qqf2vymf.streamlit.app/)
 
 ---
 
