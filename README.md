@@ -133,6 +133,38 @@ Generate analytical summaries and downloadable datasets.
 
 ---
 
+# Screenshots
+
+## Upload Dataset Page
+
+![Upload Page](screenshots/upload.png)
+
+---
+
+## Data Cleaning Page
+
+![Cleaning Page](screenshots/cleaning.png)
+
+---
+
+## Visualization Dashboard
+
+![Visualization](screenshots/visualization.png)
+
+---
+
+## Machine Learning Models
+
+![ML Models](screenshots/ml.png)
+
+---
+
+## Reports Dashboard
+
+![Reports](screenshots/reports.png)
+
+---
+
 # Technical Architecture
 
 ## Session Management
